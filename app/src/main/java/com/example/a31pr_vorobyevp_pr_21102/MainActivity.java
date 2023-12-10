@@ -80,6 +80,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         hideButtonRadio = findViewById(R.id.hideButtonRadio);
         buttonsLayout = findViewById(R.id.buttonsLayout);
 
+        Button exitButton = findViewById(R.id.exit_button);
+        exitButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                finish();
+            }
+        });
+
         flipper = findViewById(R.id.viewflipper);
 
         animSetFlipInForward = new AnimationSet(true);

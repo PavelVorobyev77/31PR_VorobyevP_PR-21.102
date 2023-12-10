@@ -27,6 +27,17 @@
                 android:layout_gravity="center"
                 android:text="Ты должен свайпнуть!" />
 
+            <Button
+                android:id="@+id/exit_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="230dp"
+                android:backgroundTint="@color/green"
+                android:text="Не хочу свайпать"
+                android:textSize="18sp"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center" />
+
         </LinearLayout>
 
         <LinearLayout
